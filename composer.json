@@ -25,7 +25,8 @@
   "require-dev": {
     "vlucas/phpdotenv": "^2.1",
     "inpsyde/wordpress-dev": "4.4.x-dev",
-    "inpsyde/wp-tests-starter": "dev-master"
+    "inpsyde/wp-tests-starter": "dev-master",
+    "codeclimate/php-test-reporter": "dev-master"
   },
   "autoload": {
     "psr-4": {

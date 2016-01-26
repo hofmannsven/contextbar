@@ -23,7 +23,8 @@ Icon
 # Composer
 /vendor
 
-# PHPUnit Test Coverage
+# Test Coverage
+/build
 /tests/coverage
 
 # Environment

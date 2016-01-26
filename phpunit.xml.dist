@@ -15,6 +15,9 @@
 			<directory suffix="Test.php" phpVersion="5.6.0" phpVersionOperator=">=">./tests/Unit</directory>
 		</testsuite>
 	</testsuites>
+	<logging>
+		<log type="coverage-clover" target="build/logs/clover.xml"/>
+	</logging>
 	<filter>
 		<whitelist>
 			<directory>./src</directory>

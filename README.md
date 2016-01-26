@@ -1,6 +1,7 @@
 # WordPress Context Bar
 
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://raw.githubusercontent.com/hofmannsven/contextbar/master/LICENSE.md)
+[![Code Climate](https://codeclimate.com/github/hofmannsven/contextbar/badges/gpa.svg)](https://codeclimate.com/github/hofmannsven/contextbar)
 
 Hooks into the WordPress admin bar to add contextual information to the instance of your site.
 
