@@ -1,0 +1,11 @@
+/* AUTHOR */
+  Developer: Sven Hofmann
+  Website: hofmannsven.com
+  Twitter: @hofmannsven
+  From: Munich, Germany
+
+/* PLUGIN */
+  Language: English / German
+  Platform: WordPress
+  Support: https://github.com/hofmannsven/contextbar/issues
+  GitHub Download: https://github.com/hofmannsven/contextbar

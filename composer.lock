@@ -1,0 +1,160 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "278391f1a66e205b169eb0ea4c69e977",
+    "content-hash": "75922edd1cac6ddc44c1bdd6fd1569e1",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "inpsyde/wordpress-dev",
+            "version": "4.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inpsyde/wordpress-dev.git",
+                "reference": "09b0ee654401e77721fc5a9bc9cff8690aebf4e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inpsyde/wordpress-dev/zipball/09b0ee654401e77721fc5a9bc9cff8690aebf4e4",
+                "reference": "09b0ee654401e77721fc5a9bc9cff8690aebf4e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2016-01-22 07:41:19"
+        },
+        {
+            "name": "inpsyde/wp-tests-starter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inpsyde/WP-Tests-Starter.git",
+                "reference": "c57efe23eea8095ae6704b2f7a6366fc23e12427"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inpsyde/WP-Tests-Starter/zipball/c57efe23eea8095ae6704b2f7a6366fc23e12427",
+                "reference": "c57efe23eea8095ae6704b2f7a6366fc23e12427",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "inpsyde/wordpress-dev": "dev-master"
+            },
+            "suggest": {
+                "inpsyde/wordpress-dev": "WordPress development composer package."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WpTestsStarter\\": "src/WpTestsStarter"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Naber",
+                    "email": "d.naber@inpsyde.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package that helps you setting up WordPress integration test environment quickly.",
+            "keywords": [
+                "integration tests",
+                "tests",
+                "wordpress"
+            ],
+            "time": "2015-11-17 15:49:50"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "homepage": "http://github.com/vlucas/phpdotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-12-29 15:10:30"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "inpsyde/wordpress-dev": 20,
+        "inpsyde/wp-tests-starter": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}
