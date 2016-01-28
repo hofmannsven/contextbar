@@ -12,7 +12,7 @@
  * Plugin Name: Context Bar
  * Plugin URI:  https://github.com/hofmannsven/contextbar
  * Description: Hooks into the WordPress admin bar to add contextual information to the instance of your site.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Sven Hofmann
  * Author URI:  https://hofmannsven.com
  * License:     GPLv3
@@ -22,7 +22,11 @@
  */
 
 if ( ! class_exists( 'ContextBar' ) ) {
-	require_once plugin_dir_path( __FILE__ ) . 'src/ContextBar.php';
-	$contextbar = new ContextBar();
+
+	$plugin_dir_path = plugin_dir_path( __FILE__ );
+	require_once $plugin_dir_path . 'src/ContextBar.php';
+
+	$contextbar = new ContextBar( $plugin_dir_path );
 	$contextbar->init();
+
 }

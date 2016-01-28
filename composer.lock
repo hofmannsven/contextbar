@@ -167,12 +167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/wordpress-dev.git",
-                "reference": "09b0ee654401e77721fc5a9bc9cff8690aebf4e4"
+                "reference": "038efe8a370e3e05fc093125e1be81349a26cd56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/wordpress-dev/zipball/09b0ee654401e77721fc5a9bc9cff8690aebf4e4",
-                "reference": "09b0ee654401e77721fc5a9bc9cff8690aebf4e4",
+                "url": "https://api.github.com/repos/inpsyde/wordpress-dev/zipball/038efe8a370e3e05fc093125e1be81349a26cd56",
+                "reference": "038efe8a370e3e05fc093125e1be81349a26cd56",
                 "shasum": ""
             },
             "require": {
@@ -196,7 +196,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2016-01-22 07:41:19"
+            "time": "2016-01-27 14:01:28"
         },
         {
             "name": "inpsyde/wp-tests-starter",
@@ -204,12 +204,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/WP-Tests-Starter.git",
-                "reference": "c57efe23eea8095ae6704b2f7a6366fc23e12427"
+                "reference": "c585234a96109dbb7708bd34abfd64542bb07f01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/WP-Tests-Starter/zipball/c57efe23eea8095ae6704b2f7a6366fc23e12427",
-                "reference": "c57efe23eea8095ae6704b2f7a6366fc23e12427",
+                "url": "https://api.github.com/repos/inpsyde/WP-Tests-Starter/zipball/c585234a96109dbb7708bd34abfd64542bb07f01",
+                "reference": "c585234a96109dbb7708bd34abfd64542bb07f01",
                 "shasum": ""
             },
             "require": {
@@ -238,13 +238,13 @@
                     "role": "Developer"
                 }
             ],
-            "description": "A package that helps you setting up WordPress integration test environment quickly.",
+            "description": "A package that helps you setting up WordPress integration test environments quickly.",
             "keywords": [
                 "integration tests",
                 "tests",
                 "wordpress"
             ],
-            "time": "2015-11-17 15:49:50"
+            "time": "2016-01-27 23:05:52"
         },
         {
             "name": "psr/log",
