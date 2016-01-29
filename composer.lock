@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "555f18d732d4b9ab155c392c5713bc74",
-    "content-hash": "402af95ac14fe22b63e574623234a5f0",
+    "hash": "145ee0fe48cf23df60295ba2e1c3b0ba",
+    "content-hash": "897909c9574254e885c9e559e5dee666",
     "packages": [],
     "packages-dev": [
         {
@@ -163,16 +163,16 @@
         },
         {
             "name": "inpsyde/wordpress-dev",
-            "version": "4.4.x-dev",
+            "version": "4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/wordpress-dev.git",
-                "reference": "038efe8a370e3e05fc093125e1be81349a26cd56"
+                "reference": "16a88ed4104ea7c39bd718102c45ebf9350f1925"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/wordpress-dev/zipball/038efe8a370e3e05fc093125e1be81349a26cd56",
-                "reference": "038efe8a370e3e05fc093125e1be81349a26cd56",
+                "url": "https://api.github.com/repos/inpsyde/wordpress-dev/zipball/16a88ed4104ea7c39bd718102c45ebf9350f1925",
+                "reference": "16a88ed4104ea7c39bd718102c45ebf9350f1925",
                 "shasum": ""
             },
             "require": {
@@ -196,11 +196,11 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2016-01-27 14:01:28"
+            "time": "2016-01-25 23:49:26"
         },
         {
             "name": "inpsyde/wp-tests-starter",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/WP-Tests-Starter.git",
@@ -783,8 +783,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "inpsyde/wordpress-dev": 20,
-        "inpsyde/wp-tests-starter": 20,
         "codeclimate/php-test-reporter": 20
     },
     "prefer-stable": false,
