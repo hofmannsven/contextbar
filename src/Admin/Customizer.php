@@ -1,4 +1,4 @@
-<?php namespace ContextBar;
+<?php namespace ContextBar\Admin;
 
 /**
  * Extend the WordPress customizer.
@@ -11,7 +11,7 @@ class Customizer {
 	/**
 	 * Add new settings to `\WP_Customize_Manager`.
 	 *
-	 * @since  0.1.0
+	 * @since  0.2.0
 	 *
 	 * @param  \WP_Customize_Manager $wp_customize
 	 *

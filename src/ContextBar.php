@@ -1,5 +1,8 @@
 <?php namespace ContextBar;
 
+use ContextBar\Admin\Admin;
+use ContextBar\Front\Front;
+
 /**
  * Init plugin functionality.
  *
@@ -13,7 +16,7 @@ class ContextBar {
 	 *
 	 * @var String
 	 */
-	protected $plugin_dir_path;
+	private $plugin_dir_path;
 
 	/**
 	 * ContextBar constructor.
@@ -57,7 +60,7 @@ class ContextBar {
 	 *
 	 * @return  void
 	 */
-	public function init_locale() {
+	private function init_locale() {
 
 		require_once $this->plugin_dir_path . 'src/Locale.php';
 
@@ -75,12 +78,12 @@ class ContextBar {
 	 *
 	 * @return  void
 	 */
-	public function init_admin() {
+	private function init_admin() {
 
-		require_once $this->plugin_dir_path . 'src/Admin.php';
-		require_once $this->plugin_dir_path . 'src/AdminStyles.php';
-		require_once $this->plugin_dir_path . 'src/Customizer.php';
-		require_once $this->plugin_dir_path . 'src/AdminBar.php';
+		require_once $this->plugin_dir_path . 'src/Admin/Admin.php';
+		require_once $this->plugin_dir_path . 'src/Admin/AdminStyles.php';
+		require_once $this->plugin_dir_path . 'src/Admin/Customizer.php';
+		require_once $this->plugin_dir_path . 'src/Admin/AdminBar.php';
 
 		$manager = new Manager();
 		$admin   = new Admin();
@@ -96,10 +99,10 @@ class ContextBar {
 	 *
 	 * @return  void
 	 */
-	public function init_front() {
+	private function init_front() {
 
-		require_once $this->plugin_dir_path . 'src/Front.php';
-		require_once $this->plugin_dir_path . 'src/FrontStyles.php';
+		require_once $this->plugin_dir_path . 'src/Front/Front.php';
+		require_once $this->plugin_dir_path . 'src/Front/FrontStyles.php';
 
 		$manager = new Manager();
 		$front   = new Front();

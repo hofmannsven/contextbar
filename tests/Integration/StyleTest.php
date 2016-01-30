@@ -1,7 +1,7 @@
 <?php namespace ContextBar\Tests\Integration;
 
-use ContextBar\AdminStyles;
-use ContextBar\FrontStyles;
+use ContextBar\Admin\AdminStyles;
+use ContextBar\Front\FrontStyles;
 
 /**
  * Test plugin style handling.

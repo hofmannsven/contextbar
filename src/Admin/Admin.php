@@ -1,4 +1,6 @@
-<?php namespace ContextBar;
+<?php namespace ContextBar\Admin;
+
+use ContextBar\ActionHookInterface;
 
 /**
  * Contains all admin-specific functionality of the plugin.
@@ -6,12 +8,12 @@
  * @package WpContextBar
  * @author  Sven Hofmann <info@hofmannsven.com>
  */
-class Admin implements ActionHookInterface {
+class Admin implements ActionHookInterface{
 
 	/**
 	 * Handle plugin action hooks via the interface.
 	 *
-	 * @since  0.1.0
+	 * @since  0.2.0
 	 *
 	 * @return array
 	 */
@@ -28,7 +30,7 @@ class Admin implements ActionHookInterface {
 	/**
 	 * Register and enqueue admin styles.
 	 *
-	 * @since   0.1.0
+	 * @since   0.2.0
 	 *
 	 * @wp-hook admin_enqueue_scripts
 	 * @return  void
@@ -43,7 +45,7 @@ class Admin implements ActionHookInterface {
 	/**
 	 * Add settings to the WordPress customizer.
 	 *
-	 * @since   0.1.0
+	 * @since   0.2.0
 	 *
 	 * @param   \WP_Customize_Manager $wp_customize
 	 *
@@ -60,7 +62,7 @@ class Admin implements ActionHookInterface {
 	/**
 	 * Add nodes to the WordPress admin bar.
 	 *
-	 * @since   0.1.0
+	 * @since   0.2.0
 	 *
 	 * @param   \WP_Admin_Bar $wp_admin_bar
 	 *

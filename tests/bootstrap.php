@@ -7,7 +7,7 @@ use WpTestsStarter\WpTestsStarter;
  */
 echo "\n";
 echo "\033[0;32m WordPress Context Bar Test Suite \033[0m\n";
-echo "\033[0;32m Version: 0.1.1 \033[0m\n";
+echo "\033[0;32m Version: 0.2.0 \033[0m\n";
 echo "\n";
 
 /**

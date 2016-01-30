@@ -1,4 +1,6 @@
-<?php namespace ContextBar;
+<?php namespace ContextBar\Front;
+
+use ContextBar\ActionHookInterface;
 
 /**
  * Contains all front-specific functionality of the plugin.
@@ -11,7 +13,7 @@ class Front implements ActionHookInterface {
 	/**
 	 * Handle plugin action hooks via the interface.
 	 *
-	 * @since  0.1.0
+	 * @since  0.2.0
 	 *
 	 * @return array
 	 */
@@ -26,7 +28,7 @@ class Front implements ActionHookInterface {
 	/**
 	 * Register and enqueue front styles.
 	 *
-	 * @since   0.1.0
+	 * @since   0.2.0
 	 *
 	 * @wp-hook wp_enqueue_scripts
 	 * @return  void

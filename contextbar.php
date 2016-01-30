@@ -12,7 +12,7 @@
  * Plugin Name: Context Bar
  * Plugin URI:  https://github.com/hofmannsven/contextbar
  * Description: Hooks into the WordPress admin bar to add contextual information to the instance of your site.
- * Version:     0.1.1
+ * Version:     0.2.0
  * Author:      Sven Hofmann
  * Author URI:  https://hofmannsven.com
  * License:     GPLv3

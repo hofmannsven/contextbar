@@ -1,6 +1,6 @@
 <?php namespace ContextBar\Tests\Integration;
 
-use ContextBar\Front;
+use ContextBar\Front\Front;
 
 /**
  * Test front-specific functionality of the plugin.

@@ -1,6 +1,6 @@
 <?php namespace ContextBar\Tests\Integration;
 
-use ContextBar\Admin;
+use ContextBar\Admin\Admin;
 
 /**
  * Test admin-specific functionality of the plugin.

@@ -1,4 +1,7 @@
-<?php namespace ContextBar;
+<?php namespace ContextBar\Admin;
+
+use ContextBar\EnqueueableInterface;
+use ContextBar\Style;
 
 /**
  * Admin-specific styles of the plugin.
@@ -11,7 +14,7 @@ class AdminStyles extends Style implements EnqueueableInterface {
 	/**
 	 * Register and enqueue admin styles.
 	 *
-	 * @since  0.1.0
+	 * @since  0.2.0
 	 *
 	 * @return void
 	 */

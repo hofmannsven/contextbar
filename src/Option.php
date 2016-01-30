@@ -51,7 +51,7 @@ class Option {
 	 *
 	 * @return bool|array
 	 */
-	protected function load_option() {
+	private function load_option() {
 
 		return get_option( $this->option_name );
 

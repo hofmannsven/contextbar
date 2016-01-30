@@ -1,4 +1,7 @@
-<?php namespace ContextBar;
+<?php namespace ContextBar\Front;
+
+use ContextBar\EnqueueableInterface;
+use ContextBar\Style;
 
 /**
  * Front-specific styles of the plugin.
@@ -11,7 +14,7 @@ class FrontStyles extends Style implements EnqueueableInterface {
 	/**
 	 * Register and enqueue front styles.
 	 *
-	 * @since  0.1.0
+	 * @since  0.2.0
 	 *
 	 * @return void
 	 */

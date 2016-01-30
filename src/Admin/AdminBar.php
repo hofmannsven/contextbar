@@ -1,4 +1,6 @@
-<?php namespace ContextBar;
+<?php namespace ContextBar\Admin;
+
+use ContextBar\Option;
 
 /**
  * Extend the WordPress admin bar.
@@ -16,7 +18,7 @@ class AdminBar {
 	/**
 	 * AdminBar constructor.
 	 *
-	 * @since 0.1.0
+	 * @since 0.2.0
 	 */
 	public function __construct() {
 
@@ -27,7 +29,7 @@ class AdminBar {
 	/**
 	 * Add new node to `\WP_Admin_Bar`.
 	 *
-	 * @since 0.1.0
+	 * @since 0.2.0
 	 *
 	 * @param \WP_Admin_Bar $wp_admin_bar
 	 *

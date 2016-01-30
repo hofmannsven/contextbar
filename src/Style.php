@@ -37,7 +37,7 @@ abstract class Style {
 			'contextbar',
 			plugins_url( '/', dirname( __FILE__ ) ) . 'resources/css/contextbar.min.css',
 			array(),
-			'0.1.1',
+			'0.2.0',
 			'all'
 		);
 
