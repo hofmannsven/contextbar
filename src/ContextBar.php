@@ -44,28 +44,27 @@ class ContextBar {
 		require_once $this->plugin_dir_path . 'src/Option.php';
 		require_once $this->plugin_dir_path . 'src/Style.php';
 
-		add_action( 'plugins_loaded', array( $this, 'init_textdomain' ) );
-		add_action( 'plugins_loaded', array( $this, 'init_admin' ) );
-		add_action( 'template_redirect', array( $this, 'init_front' ) );
+		$this->init_locale();
+		$this->init_admin();
+		$this->init_front();
 
 	}
 
 	/**
-	 * Load the plugin text domain for translation.
+	 * Init internationalization-specific functionality of the plugin.
 	 *
-	 * @since   0.1.0
+	 * @since   0.1.1
 	 *
-	 * @wp-hook plugins_loaded
-	 * @return  bool
+	 * @return  void
 	 */
-	public function init_textdomain() {
+	public function init_locale() {
 
-		return load_plugin_textdomain(
-			'contextbar',
-			FALSE,
-			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
-		);
+		require_once $this->plugin_dir_path . 'src/Locale.php';
 
+		$manager = new Manager();
+		$locale  = new Locale();
+
+		$manager->register( $locale );
 
 	}
 
@@ -74,7 +73,6 @@ class ContextBar {
 	 *
 	 * @since   0.1.0
 	 *
-	 * @wp-hook plugins_loaded
 	 * @return  void
 	 */
 	public function init_admin() {
@@ -96,7 +94,6 @@ class ContextBar {
 	 *
 	 * @since   0.1.0
 	 *
-	 * @wp-hook template_redirect
 	 * @return  void
 	 */
 	public function init_front() {
