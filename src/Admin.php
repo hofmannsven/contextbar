@@ -20,7 +20,7 @@ class Admin implements ActionHookInterface {
 		return array(
 			'admin_enqueue_scripts' => array( 'enqueue' ),
 			'customize_register'    => array( 'extend_customizer', 50, 1 ),
-			'admin_bar_menu'        => array( 'extend_admin_bar', 35 ),
+			'admin_bar_menu'        => array( 'extend_admin_bar', 35 )
 		);
 
 	}
