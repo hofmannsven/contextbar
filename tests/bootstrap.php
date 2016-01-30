@@ -1,6 +1,5 @@
 <?php namespace ContextBar\Tests;
 
-use Dotenv\Dotenv;
 use WpTestsStarter\WpTestsStarter;
 
 /**
@@ -25,35 +24,18 @@ if ( file_exists( $autoloadFile ) ) {
 }
 
 /**
- * Setup environment variables using PHP dotenv.
- *
- * @link https://github.com/vlucas/phpdotenv
- */
-$dotenv = new Dotenv( $baseDir );
-$dotenv->load();
-
-/**
  * Setup test environment using WP Tests Starter.
  *
  * @link https://github.com/inpsyde/WP-Tests-Starter
  */
 $starter = new WpTestsStarter( $baseDir . '/vendor/inpsyde/wordpress-dev' );
 
-$starter->defineDbName( getenv( 'TESTS_DB_NAME' ) );
-$starter->defineDbUser( getenv( 'TESTS_DB_USER' ) );
-$starter->defineDbPassword( getenv( 'TESTS_DB_PASSWORD' ) );
-$starter->defineDbHost( getenv( 'TESTS_DB_HOST' ) );
-$starter->defineDbCharset( getenv( 'TESTS_DB_CHARSET' ) );
-$starter->defineDbCollate( getenv( 'TESTS_DB_COLLATE' ) );
-$starter->setTablePrefix( getenv( 'TESTS_DB_TABLE_PREFIX' ) );
-
-$starter->defineAbspath();
-$starter->definePhpBinary( 'php' );
-$starter->defineWpLang( 'de_DE' );
-$starter->defineWpDebug( TRUE );
-
-$starter->defineTestsDomain( getenv( 'TESTS_DOMAIN' ) );
-$starter->defineTestsEmail( getenv( 'TESTS_EMAIL' ) );
-$starter->defineTestsTitle( getenv( 'TESTS_TITLE' ) );
+$starter->defineDbName( DB_NAME );
+$starter->defineDbUser( DB_USER );
+$starter->defineDbPassword( DB_PASSWORD );
+$starter->defineDbHost( DB_HOST );
+$starter->defineDbCharset( DB_CHARSET );
+$starter->defineDbCollate( DB_COLLATE );
+$starter->setTablePrefix( DB_TABLE_PREFIX );
 
 $starter->bootstrap();

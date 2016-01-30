@@ -8,7 +8,7 @@ PHPUnit 5.1 is supported on PHP 5.6 and PHP 7.
 
 ## Up and running
 
-1. Provide your own testing environment variables within your `.env` file based on `.env.example`
+1. Provide your own testing environment variables within your `phpunit.xml` file based on `phpunit.xml.dist`
 2. Install composer dependencies: `composer install`
 3. Run unit and integration tests: `phpunit`
 

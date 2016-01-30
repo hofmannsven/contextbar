@@ -7,6 +7,15 @@
 	convertNoticesToExceptions="true"
 	convertWarningsToExceptions="true"
 >
+	<php>
+		<const name="ContextBar\Tests\DB_NAME" value="PLACEHOLDER"/>
+		<const name="ContextBar\Tests\DB_USER" value="PLACEHOLDER"/>
+		<const name="ContextBar\Tests\DB_PASSWORD" value="PLACEHOLDER"/>
+		<const name="ContextBar\Tests\DB_HOST" value="localhost"/>
+		<const name="ContextBar\Tests\DB_CHARSET" value="utf8"/>
+		<const name="ContextBar\Tests\DB_COLLATE" value=""/>
+		<const name="ContextBar\Tests\DB_TABLE_PREFIX" value="wp_"/>
+	</php>
 	<testsuites>
 		<testsuite name="IntegrationTests">
 			<directory suffix="Test.php" phpVersion="5.6.0" phpVersionOperator=">=">./tests/Integration</directory>

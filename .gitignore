@@ -23,9 +23,9 @@ Icon
 # Composer
 /vendor
 
+# PHPUnit
+phpunit.xml
+
 # Test Coverage
 /build
 /tests/coverage
-
-# Environment
-.env

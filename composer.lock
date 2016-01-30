@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "145ee0fe48cf23df60295ba2e1c3b0ba",
-    "content-hash": "897909c9574254e885c9e559e5dee666",
+    "hash": "1de950575cdfac8a747b0a0fe94da212",
+    "content-hash": "de84f6a6bb4a0998d99780a8185155c9",
     "packages": [],
     "packages-dev": [
         {
@@ -727,57 +727,6 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2015-12-26 13:39:53"
-        },
-        {
-            "name": "vlucas/phpdotenv",
-            "version": "v2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
-                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Dotenv\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Vance Lucas",
-                    "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
-                }
-            ],
-            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-            "homepage": "http://github.com/vlucas/phpdotenv",
-            "keywords": [
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "time": "2015-12-29 15:10:30"
         }
     ],
     "aliases": [],
