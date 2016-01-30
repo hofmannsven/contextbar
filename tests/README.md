@@ -20,10 +20,9 @@ It's also possible to only run specific tests.
 
 ### Testsuites
 
-Currently there are two separate test suites that can be run via the `--testsuite` option:
+Currently there is one test suite that can be run via the `--testsuite` option:
 
-- `--testsuite IntegrationTests`
-- `--testsuite UnitTests`
+- `--testsuite Integration`
 
 
 ### Groups

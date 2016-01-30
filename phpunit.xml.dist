@@ -17,11 +17,8 @@
 		<const name="ContextBar\Tests\DB_TABLE_PREFIX" value="wp_"/>
 	</php>
 	<testsuites>
-		<testsuite name="IntegrationTests">
+		<testsuite name="Integration">
 			<directory suffix="Test.php" phpVersion="5.6.0" phpVersionOperator=">=">./tests/Integration</directory>
-		</testsuite>
-		<testsuite name="UnitTests">
-			<directory suffix="Test.php" phpVersion="5.6.0" phpVersionOperator=">=">./tests/Unit</directory>
 		</testsuite>
 	</testsuites>
 	<logging>
