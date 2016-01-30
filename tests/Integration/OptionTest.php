@@ -28,7 +28,7 @@ class OptionTest extends \PHPUnit_Framework_TestCase {
 			)
 		);
 
-		$this->option = new Option();
+		$this->option = new Option( 'contextbar' );
 
 	}
 

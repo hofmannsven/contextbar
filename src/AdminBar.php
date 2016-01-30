@@ -20,7 +20,7 @@ class AdminBar {
 	 */
 	public function __construct() {
 
-		$this->option = new Option();
+		$this->option = new Option( 'contextbar' );
 
 	}
 

@@ -13,7 +13,20 @@ class Option {
 	 *
 	 * @var string
 	 */
-	protected $option_name = 'contextbar';
+	private $option_name;
+
+	/**
+	 * Option constructor.
+	 *
+	 * @since 0.1.1
+	 *
+	 * @param string $option_name
+	 */
+	public function __construct( $option_name ) {
+
+		$this->option_name = $option_name;
+
+	}
 
 	/**
 	 * Return default option with value.
@@ -22,7 +35,7 @@ class Option {
 	 *
 	 * @return array
 	 */
-	protected function get_default() {
+	private function get_default() {
 
 		return array(
 			'name'  => esc_html__( 'Localhost', 'contextbar' ),
@@ -40,11 +53,7 @@ class Option {
 	 */
 	protected function load_option() {
 
-		static $option = FALSE;
-
-		! $option && $option = get_option( $this->option_name );
-
-		return $option;
+		return get_option( $this->option_name );
 
 	}
 
