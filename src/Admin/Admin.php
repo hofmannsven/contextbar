@@ -1,6 +1,7 @@
 <?php namespace ContextBar\Admin;
 
 use ContextBar\ActionHookInterface;
+use ContextBar\Option;
 
 /**
  * Contains all admin-specific functionality of the plugin.
@@ -8,7 +9,7 @@ use ContextBar\ActionHookInterface;
  * @package WpContextBar
  * @author  Sven Hofmann <info@hofmannsven.com>
  */
-class Admin implements ActionHookInterface{
+class Admin implements ActionHookInterface {
 
 	/**
 	 * Handle plugin action hooks via the interface.
@@ -71,8 +72,9 @@ class Admin implements ActionHookInterface{
 	 */
 	public function extend_admin_bar( \WP_Admin_Bar $wp_admin_bar ) {
 
+		$option = new Option( 'contextbar' );
 		$admin_bar = new AdminBar();
-		$admin_bar->add_node( $wp_admin_bar );
+		$admin_bar->add_node( $wp_admin_bar, $option );
 
 	}
 
