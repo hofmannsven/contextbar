@@ -1,5 +1,8 @@
 # WordPress Context Bar Test Suite
 
+[![PHP](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square)](https://php.net)
+[![Code Climate](https://img.shields.io/codeclimate/coverage/github/hofmannsven/contextbar.svg?style=flat-square)](https://codeclimate.com/github/hofmannsven/contextbar/coverage)
+
 ## Requirements
 
 Using the latest version of WordPress and PHP is highly recommended.
