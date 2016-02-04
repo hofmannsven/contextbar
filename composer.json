@@ -1,12 +1,13 @@
 {
   "name": "hofmannsven/contextbar",
   "description": "Hooks into the WordPress admin bar to add contextual information to the instance of your site.",
+  "homepage": "https://github.com/hofmannsven/contextbar",
+  "license": "GPLv3",
+  "type": "wordpress-plugin",
   "keywords": [
     "wordpress",
     "development"
   ],
-  "homepage": "https://github.com/hofmannsven/contextbar",
-  "license": "GPLv3",
   "authors": [
     {
       "name": "Sven Hofmann",
@@ -15,9 +16,15 @@
       "role": "Developer"
     }
   ],
-  "type": "wordpress-plugin",
   "support": {
-    "issues": "https://github.com/hofmannsven/contextbar/issues"
+    "email": "info@hofmannsven.com",
+    "issues": "https://github.com/hofmannsven/contextbar/issues",
+    "source": "https://github.com/hofmannsven/contextbar"
+  },
+  "autoload": {
+    "psr-4": {
+      "ContextBar\\": "src"
+    }
   },
   "require": {
     "php": ">=5.6.0"
@@ -25,11 +32,6 @@
   "require-dev": {
     "inpsyde/wordpress-dev": "~4.4",
     "inpsyde/wp-tests-starter": "~1.0",
-    "codeclimate/php-test-reporter": "dev-master"
-  },
-  "autoload": {
-    "psr-4": {
-      "ContextBar\\": "src"
-    }
+    "codeclimate/php-test-reporter": "~0.2"
   }
 }
