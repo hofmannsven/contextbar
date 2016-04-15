@@ -39,7 +39,7 @@ class Option {
 
 		return array(
 			'name'  => esc_html__( 'Localhost', 'contextbar' ),
-			'color' => '#9c0006',
+			'color' => '#e14d43',
 		);
 
 	}

@@ -24,7 +24,7 @@ class OptionTest extends \PHPUnit_Framework_TestCase {
 			'contextbar',
 			array(
 				// 'name'  => 'Localhost',
-				'color' => '#9c0006',
+				'color' => '#e14d43',
 			)
 		);
 
@@ -72,7 +72,7 @@ class OptionTest extends \PHPUnit_Framework_TestCase {
 
 		$defaults = array(
 			'name'  => 'Localhost',
-			'color' => '#9c0006',
+			'color' => '#e14d43',
 		);
 		$this->assertEquals( $defaults, $this->option->get_option( 'undefined' ) );
 
@@ -85,7 +85,7 @@ class OptionTest extends \PHPUnit_Framework_TestCase {
 	 */
 	public function testOptionGetValue() {
 
-		$this->assertEquals( '#9c0006', $this->option->get_value( 'color' ) );
+		$this->assertEquals( '#e14d43', $this->option->get_value( 'color' ) );
 
 	}
 

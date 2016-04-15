@@ -53,7 +53,7 @@ class Customizer {
 		$wp_customize->add_setting(
 			'contextbar[color]',
 			array(
-				'default'           => '#9c0006',
+				'default'           => '#e14d43',
 				'sanitize_callback' => 'sanitize_hex_color',
 				'capability'        => 'edit_theme_options',
 				'type'              => 'option',
