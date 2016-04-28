@@ -20,9 +20,11 @@ class FrontStyles extends Style implements EnqueueableInterface {
 	 */
 	public function load() {
 
-		$this->register();
-		$this->enqueue();
-		$this->add_inline_style();
+		if ( is_user_logged_in() ) {
+			$this->register();
+			$this->enqueue();
+			$this->add_inline_style();
+		}
 
 	}
 
