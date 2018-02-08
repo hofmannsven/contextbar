@@ -2,7 +2,7 @@
   "name": "hofmannsven/contextbar",
   "description": "Hooks into the WordPress admin bar to add contextual information to the instance of your site.",
   "homepage": "https://github.com/hofmannsven/contextbar",
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "type": "wordpress-plugin",
   "keywords": [
     "wordpress",
